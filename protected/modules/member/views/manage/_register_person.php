@@ -396,7 +396,7 @@
                 <?php if (CCaptcha::checkRequirements()) { ?>
                     <div class="_50">
                         <?php
-                        echo "addd by mixz";
+                        echo "addd by mixz V 22222222222222222222222";
                         echo "addd by b";
                         echo $form->labelEx($model_user, 'verifyCode');
                         $this->widget('CCaptcha');
