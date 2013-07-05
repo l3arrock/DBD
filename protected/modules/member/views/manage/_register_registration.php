@@ -367,10 +367,10 @@
                 <?php if (CCaptcha::checkRequirements()) { ?>
                     <div class="_50">
                         <?php
-                        echo $form->labelEx($model_user, 'verifyCode');
-                        $this->widget('CCaptcha');
-                        echo $form->textField($model_user, 'verifyCode');
-                        echo $form->error($model_user, 'verifyCode');
+//                        echo $form->labelEx($model_user, 'verifyCode');
+//                        $this->widget('CCaptcha');
+//                        echo $form->textField($model_user, 'verifyCode');
+//                        echo $form->error($model_user, 'verifyCode');
                         ?>
                     </div>
                 <?php } ?>
