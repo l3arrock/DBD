@@ -371,6 +371,7 @@
                         $this->widget('CCaptcha');
                         echo $form->textField($model_user, 'verifyCode');
                         echo $form->error($model_user, 'verifyCode');
+                        echo "เพิ่ม";
                         ?>
                     </div>
                 <?php } ?>
