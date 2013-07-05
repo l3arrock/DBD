@@ -1,0 +1,134 @@
+.tabs a{
+	color: #fff;
+}
+ul.tabs
+{
+    /*padding: 7px 0;*/
+    font-size: 0;
+    margin:0;
+    list-style-type: none;
+    text-align: left; /*set to left, center, or right to align the tabs as desired*/
+}
+        
+ul.tabs li
+{
+/*        background: none repeat scroll 0 0 #AAAAAA;*/
+ 	background: url('../img/tab.png') no-repeat;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 22px;
+    line-height: 100px;
+    border-left : 1px solid #FFFFFF !important;
+    border-top : 1px solid #FFFFFF !important;
+    margin: -1px;
+    text-align: center;
+    vertical-align: middle;
+    width: 50%;
+  
+    opacity: 0.8;
+    zoom: 1;
+*display: inline;
+
+    
+    
+    
+    
+/*    display: inline;
+    margin: 0;
+    margin-right:3px; 
+    */
+    /*distance between tabs*/
+}
+        
+ul.tabs li a{
+   
+    line-height         : normal;
+    vertical-align      : middle; 
+	
+    font: normal 12px Verdana;
+
+    display: table-cell;
+    font: 12px Verdana;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    width: 115px;
+/*    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    padding: 7px 16px;
+    border: 1px solid #CCC;
+    border-bottom-color:#B7B7B7;
+    color: #000;
+    background: #F0F0F0 url(tabbg.gif) 0 0 repeat-x;
+    border-radius: 2px 2px 0 0;
+    outline:none;*/
+}
+        
+ul.tabs li a:visited
+{
+    /*color: #000;*/
+}
+        
+ul.tabs li a:hover
+{
+/*    border: 1px solid #B7B7B7;
+    background:#F0F0F0 url(tabbg.gif) 0 -36px repeat-x;*/
+
+}
+        
+ul.tabs li.selected{
+    background: url('../img/tabactive.png') no-repeat;
+
+}
+ul.tabs li.selected a
+{
+   
+    line-height         : normal;
+    vertical-align      : middle; 
+    color: gold;
+
+    /*selected tab style */
+    position: relative;
+    top: 0px;
+    font-weight:bold;
+/*    background: white;*/
+/*    border: 1px solid #B7B7B7;*/
+    /*border-bottom-color: white;*/
+}
+        
+        
+ul.tabs li.selected a:hover
+{
+    /*selected tab style */
+    text-decoration: none;
+}
+        
+div.tabcontent
+{
+    display: block;
+}
+
+
+     #featured {    
+          width: 98.5%  !important;
+          
+          }
+   
+
+div.tabcontents
+{
+  
+   
+margin-left: 5px;
+/*margin-left: 10px;
+margin-right: 16px;*/
+    /*border: 1px solid #B7B7B7;*/ 
+/*    padding-right: 12px;*/
+/*    background-color:#FFF;*/
+/*    border-radius: 0 2px 2px 2px;*/
+}
+
+
+
+
