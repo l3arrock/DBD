@@ -41,6 +41,7 @@
             <div class="row-fluid">
                 <h3> <img src="/img/iconform.png"> แบบลงทะเบียนนิติบุคคล</h3>
                 <?php
+                echo "testttttttttttt";
                 $form = $this->beginWidget('CActiveForm', array(
                     'id' => 'insert_registration-form',
 //                    'htmlOptions' => array('enctype' => 'multipart/form-data'),
