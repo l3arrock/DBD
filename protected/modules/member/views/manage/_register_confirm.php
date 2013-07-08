@@ -15,7 +15,8 @@
     <div class="row">
         <?php echo $form->labelEx($model, 'register_confirm'); ?>
         <?php echo $form->textField($model, 'register_confirm', array('style' => 'width: 200px;')); ?>
-        <?php echo $form->error($model, 'register_confirm'); ?>
+        <?php echo $form->error($model, 'register_confirm');
+        echo "testttttttttttt"; ?>
     </div>
 
     <div class="row buttons">

@@ -398,6 +398,7 @@
                         <?php
                         echo "addd by mixz V 22222222222222222222222";
                         echo "addd by b";
+                        echo "testttttttttttt";
                         echo $form->labelEx($model_user, 'verifyCode');
                         $this->widget('CCaptcha');
                         echo $form->textField($model_user, 'verifyCode');

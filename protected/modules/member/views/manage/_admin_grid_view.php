@@ -1,5 +1,5 @@
 <?php
-
+echo "testttttttttttt";
 $this->widget('zii.widgets.grid.CGridView', array(
 //    'id' => 'admin-grid',
     'dataProvider' => $dataProvider,
