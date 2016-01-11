@@ -11,6 +11,8 @@ class Career extends CareerBase {
         return parent::model($className);
     }
 
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
     public function rules() {
         // NOTE: you should only define rules for those attributes that
         // will receive user inputs.
