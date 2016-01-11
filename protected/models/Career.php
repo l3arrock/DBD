@@ -11,7 +11,8 @@ class Career extends CareerBase {
         return parent::model($className);
     }
 
-    bbbbbb
+    bbbbbbhjjhggjhg
+    hjguyg
 
     public function rules() {
         // NOTE: you should only define rules for those attributes that
