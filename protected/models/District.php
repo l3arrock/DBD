@@ -34,12 +34,7 @@ class District extends DistrictBase
 	{
 		return 'district';
 	}
-<<<<<<< HEAD
- echo "test";
-=======
-	narumol fine
 
->>>>>>> origin/master
 	/**
 	 * @return array validation rules for model attributes.
 	 */
