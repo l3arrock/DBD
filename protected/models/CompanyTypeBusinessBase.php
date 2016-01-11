@@ -19,7 +19,6 @@ class CompanyTypeBusinessBase extends CActiveRecord
 		return parent::model($className);
 	}
 
-	21222tttttt
 	yutfgghjghgfv
 
 	/**

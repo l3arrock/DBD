@@ -34,6 +34,7 @@ class District extends DistrictBase
 	{
 		return 'district';
 	}
+	narumol fine
 
 	/**
 	 * @return array validation rules for model attributes.
