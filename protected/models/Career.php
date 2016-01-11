@@ -12,7 +12,7 @@ class Career extends CareerBase {
     }
 
     bbbbbbhjjhggjhg
-    hjguyg
+    
 
     public function rules() {
         // NOTE: you should only define rules for those attributes that
