@@ -34,7 +34,7 @@ class District extends DistrictBase
 	{
 		return 'district';
 	}
-
+ echo "test";
 	/**
 	 * @return array validation rules for model attributes.
 	 */
